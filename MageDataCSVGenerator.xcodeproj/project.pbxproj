@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A86C034D5BD8E3FBE8A47DF0 /* libPods-MageDataCSVGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFE19FCD29AD70ECAFCF738 /* libPods-MageDataCSVGenerator.a */; };
+		B270D9061EE952D200113A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B270D9051EE952D200113A89 /* main.m */; };
+		B270D90E1EE9530000113A89 /* ELGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B270D90D1EE9530000113A89 /* ELGenerator.m */; };
+		B273AE4F1EF147330077664D /* ELGenerator+Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = B273AE4E1EF147330077664D /* ELGenerator+Customer.m */; };
+		B27694A81EEE4D1800544961 /* ELGenerator+Product.m in Sources */ = {isa = PBXBuildFile; fileRef = B27694A71EEE4D1800544961 /* ELGenerator+Product.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B270D9001EE952D200113A89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B270D9021EE952D200113A89 /* MageDataCSVGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MageDataCSVGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		B270D9051EE952D200113A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B270D90C1EE9530000113A89 /* ELGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELGenerator.h; sourceTree = "<group>"; };
+		B270D90D1EE9530000113A89 /* ELGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELGenerator.m; sourceTree = "<group>"; };
+		B273AE4D1EF147330077664D /* ELGenerator+Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELGenerator+Customer.h"; sourceTree = "<group>"; };
+		B273AE4E1EF147330077664D /* ELGenerator+Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELGenerator+Customer.m"; sourceTree = "<group>"; };
+		B27694A61EEE4D1800544961 /* ELGenerator+Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELGenerator+Product.h"; sourceTree = "<group>"; };
+		B27694A71EEE4D1800544961 /* ELGenerator+Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELGenerator+Product.m"; sourceTree = "<group>"; };
+		C1C469735244EF6185A3186E /* Pods-MageDataCSVGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MageDataCSVGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-MageDataCSVGenerator/Pods-MageDataCSVGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		C59D7F632324B04CC2B7A1FB /* Pods-MageDataCSVGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MageDataCSVGenerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MageDataCSVGenerator/Pods-MageDataCSVGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		CCFE19FCD29AD70ECAFCF738 /* libPods-MageDataCSVGenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MageDataCSVGenerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B270D8FF1EE952D200113A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86C034D5BD8E3FBE8A47DF0 /* libPods-MageDataCSVGenerator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312F22B4096F2DE4C5EF885B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C59D7F632324B04CC2B7A1FB /* Pods-MageDataCSVGenerator.debug.xcconfig */,
+				C1C469735244EF6185A3186E /* Pods-MageDataCSVGenerator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B270D8F91EE952D200113A89 = {
+			isa = PBXGroup;
+			children = (
+				B270D9041EE952D200113A89 /* MageDataCSVGenerator */,
+				B270D9031EE952D200113A89 /* Products */,
+				312F22B4096F2DE4C5EF885B /* Pods */,
+				EEEB7E0D8E2328D95AA4A447 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B270D9031EE952D200113A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B270D9021EE952D200113A89 /* MageDataCSVGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B270D9041EE952D200113A89 /* MageDataCSVGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B270D9051EE952D200113A89 /* main.m */,
+				B270D90C1EE9530000113A89 /* ELGenerator.h */,
+				B270D90D1EE9530000113A89 /* ELGenerator.m */,
+				B273AE4D1EF147330077664D /* ELGenerator+Customer.h */,
+				B273AE4E1EF147330077664D /* ELGenerator+Customer.m */,
+				B27694A61EEE4D1800544961 /* ELGenerator+Product.h */,
+				B27694A71EEE4D1800544961 /* ELGenerator+Product.m */,
+			);
+			path = MageDataCSVGenerator;
+			sourceTree = "<group>";
+		};
+		EEEB7E0D8E2328D95AA4A447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCFE19FCD29AD70ECAFCF738 /* libPods-MageDataCSVGenerator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B270D9011EE952D200113A89 /* MageDataCSVGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B270D9091EE952D200113A89 /* Build configuration list for PBXNativeTarget "MageDataCSVGenerator" */;
+			buildPhases = (
+				4AD6905997153A46C18F36FB /* [CP] Check Pods Manifest.lock */,
+				B270D8FE1EE952D200113A89 /* Sources */,
+				B270D8FF1EE952D200113A89 /* Frameworks */,
+				B270D9001EE952D200113A89 /* CopyFiles */,
+				19B0CD5AE99910AFD74AF589 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MageDataCSVGenerator;
+			productName = MageDataCSVGenerator;
+			productReference = B270D9021EE952D200113A89 /* MageDataCSVGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B270D8FA1EE952D200113A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EL;
+				TargetAttributes = {
+					B270D9011EE952D200113A89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B270D8FD1EE952D200113A89 /* Build configuration list for PBXProject "MageDataCSVGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B270D8F91EE952D200113A89;
+			productRefGroup = B270D9031EE952D200113A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B270D9011EE952D200113A89 /* MageDataCSVGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B0CD5AE99910AFD74AF589 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MageDataCSVGenerator/Pods-MageDataCSVGenerator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD6905997153A46C18F36FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B270D8FE1EE952D200113A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27694A81EEE4D1800544961 /* ELGenerator+Product.m in Sources */,
+				B270D90E1EE9530000113A89 /* ELGenerator.m in Sources */,
+				B273AE4F1EF147330077664D /* ELGenerator+Customer.m in Sources */,
+				B270D9061EE952D200113A89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B270D9071EE952D200113A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B270D9081EE952D200113A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B270D90A1EE952D200113A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59D7F632324B04CC2B7A1FB /* Pods-MageDataCSVGenerator.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B270D90B1EE952D200113A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C469735244EF6185A3186E /* Pods-MageDataCSVGenerator.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B270D8FD1EE952D200113A89 /* Build configuration list for PBXProject "MageDataCSVGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B270D9071EE952D200113A89 /* Debug */,
+				B270D9081EE952D200113A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B270D9091EE952D200113A89 /* Build configuration list for PBXNativeTarget "MageDataCSVGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B270D90A1EE952D200113A89 /* Debug */,
+				B270D90B1EE952D200113A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B270D8FA1EE952D200113A89 /* Project object */;
+}
