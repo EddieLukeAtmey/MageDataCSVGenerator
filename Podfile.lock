@@ -1,12 +1,15 @@
 PODS:
   - CHCSVParser (2.1.0)
+  - objective-zip (1.0.5)
 
 DEPENDENCIES:
   - CHCSVParser
+  - objective-zip
 
 SPEC CHECKSUMS:
   CHCSVParser: 3bcc7bdb72111a31222e95d57eacceefe4e537e8
+  objective-zip: 41b1408cebffceb6b9d15ad691506707e390d359
 
-PODFILE CHECKSUM: 58b7c8889f9598cea70e81a56150002966b2043d
+PODFILE CHECKSUM: 50d2de94fb22eb8fbd7bad124099c6aabc2209ae
 
 COCOAPODS: 1.2.1

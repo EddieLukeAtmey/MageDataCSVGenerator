@@ -7,5 +7,6 @@ target 'MageDataCSVGenerator' do
 
   # Pods for MageDataCSVGenerator
   pod 'CHCSVParser'
+  pod 'objective-zip'
 
 end

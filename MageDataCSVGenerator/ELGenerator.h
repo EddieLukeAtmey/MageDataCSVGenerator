@@ -16,6 +16,9 @@
 /** Generate file and return file path */
 + (NSString *)generateFileForName:(NSString *)fileName;
 
+/** Zip file. */
++ (void)compressFilePath:(NSString *)filePath fileName:(NSString *)fileName;
+
 /** Generate random string for a specific length. */
 +  (NSString *)randomStringForLength:(NSInteger)len;
 

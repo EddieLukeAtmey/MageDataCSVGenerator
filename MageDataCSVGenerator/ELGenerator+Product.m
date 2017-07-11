@@ -344,11 +344,12 @@
     }
     
     [writer closeStream];
+    [self compressFilePath:filePath fileName:fileName];
 }
 
 #pragma mark - Mage2
 + (void)generateProduct2 {
-    for (NSInteger i = 4; i < 16; i++) {
+    for (NSInteger i = 16; i < 36; i++) {
         [self generateProduct2:3000 forPage:i];
     }
 }
@@ -564,6 +565,8 @@
     }
     
     [writer closeStream];
+
+    [self compressFilePath:filePath fileName:fileName];
 }
 
 @end

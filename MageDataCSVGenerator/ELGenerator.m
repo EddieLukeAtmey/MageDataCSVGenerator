@@ -7,12 +7,22 @@
 //
 
 #import "ELGenerator.h"
+#import <Objective-Zip.h>
 
 @implementation ELGenerator
 
+static OZZipFile *zipFile;
+
 + (void)run
 {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        zipFile = [[OZZipFile alloc] initWithFileName:@"ProductM2.zip"
+                                                 mode:OZZipFileModeCreate];
+    });
+
     [self generateProduct2];
+    [zipFile close];
 }
 
 + (NSString *)generateFileForName:(NSString *)fileName
@@ -25,6 +35,20 @@
     NSLog(@"file path: %@", filePath);
 
     return filePath;
+}
+
++ (void)compressFilePath:(NSString *)filePath fileName:(NSString *)fileName
+{
+    OZZipWriteStream *stream = [zipFile writeFileInZipWithName:fileName
+                                             compressionLevel:OZZipCompressionLevelBest];
+
+    [stream writeData:[NSData dataWithContentsOfFile:filePath]];
+    [stream finishedWriting];
+
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    [fileManager removeItemAtPath:filePath error:nil];
+
+    NSLog(@"Compress %@ into: %@", fileName, filePath);
 }
 
 + (NSString *)randomStringForLength:(NSInteger)len

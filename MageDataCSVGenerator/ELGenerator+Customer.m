@@ -161,6 +161,7 @@
     }
     
     [writer closeStream];
+    [self compressFilePath:filePath fileName:fileName];
 }
 
 #pragma mark - Mage2
@@ -314,6 +315,7 @@
     }
     
     [writer closeStream];
+    [self compressFilePath:filePath fileName:fileName];
 }
 
 @end
